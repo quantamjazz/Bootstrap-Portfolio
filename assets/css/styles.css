@@ -1,0 +1,65 @@
+/* Change the background color of the navbar */
+.navbar {
+  background-color: #3f3b6c !important;
+}
+
+/* Change the color of the brand and links */
+.navbar-brand,
+.nav-link {
+  color: white !important;
+}
+
+/* Change the color of the dropdown items */
+.dropdown-item {
+  color: #333 !important;
+}
+
+/* Change the color of the brand, links, and dropdown items on hover */
+.navbar-brand:hover,
+.nav-link:hover,
+.dropdown-item:hover {
+  color: #624f82 !important;
+}
+
+/* Change the color of the active link */
+.nav-item.active .nav-link {
+  color: #ddd !important;
+  background-color: #9f73ab !important;
+}
+
+/* Style the hero section */
+.hero {
+  background-color: #9F73AB;
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+
+/* Style the hero title */
+.hero h1 {
+  font-size: 2.5em;
+  font-family: "lato", sans-serif;
+}
+
+/* Style the hero subtitle */
+.hero p {
+  font-size: 1.5em;
+}
+
+/* Style the call to action button */
+.hero .btn {
+  color: #3f3b6c;
+  background-color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.heroImage {
+  max-width: 30%;
+}
