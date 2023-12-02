@@ -1,6 +1,6 @@
 /* Change the background color of the navbar */
 .navbar {
-  background-color: #3f3b6c !important;
+  background-color: #5C2E7E!important;
 }
 
 /* Change the color of the brand and links */
@@ -33,6 +33,8 @@
   background-image: url(../images/Gradient\ Purple\ Dynamic\ BG.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  background-blend-mode:color-burn;
   color: white;
   padding: 100px 0;
   text-align: center;
@@ -64,5 +66,5 @@
 }
 
 .heroImage {
-  max-width: 30%;
+  max-width: 20%;
 }
