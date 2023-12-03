@@ -14,9 +14,9 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar w/ text</a>
+        <span class="navbar-heading mb-0 h1">Eleanor Jenner</span>
         <button
           class="navbar-toggler"
           type="button"
@@ -37,13 +37,13 @@
               <a class="nav-link" href="#work">Work</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Skills</a>
+              <a class="nav-link" href="#skills">Skills</a>
             </li>
-            <li class="'nav-item">
+            <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
-
+        </div>
           <span class="navbar-text"> Front-End Developer </span>
         </div>
       </div>
@@ -51,22 +51,54 @@
 
     <!-- Hero Section -->
     <div class="jumbotron hero">
-      <h1 class="display-4">Eleanor Jenner</h1>
+      <h1 class="display-4">Eleanor Jenner | Front-End Devleoper</h1>
       <img
         src="assets/images/Me.jpeg"
         alt="Eleanor Jenner"
         class="img-fluid rounded-circle heroImage"
       />
-      <p class="lead">Pole instructor by day, Front-End Dev by night.</p>
+      <p class="lead">Pole instructor by day, Dev by night.</p>
     </div>
 
     <!-- Work Section -->
     <section id="work">
-      <div class="container">
-        <div class="row">
-          <!-- Add your work as cards -->
+        <div class="container">
+            <div class="row">
+                <div id="projectCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="card" style="width: 18rem;">
+                                <img src="assets/images/Screenshot 2023-12-02 at 18.42.35.png" class="card-img-top" alt="Screenshot of Portfolio 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Portfolio1</h5>
+                                    <p class="card-text">My first ever portfolio built using HTML and CSS</p>
+                                    <a href="https://quantamjazz.github.io/quantamjazz-portfolio/" class="btn btn-primary">Check it out!</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card" style="width: 18rem;">
+                                <img src="..." class="card-img-top" alt="Screenshot of Prework Study Guide website">
+                                <div class="card-body">
+                                    <h5 class="card-title">Prework Study Guide</h5>
+                                    <p class="card-text">Basic Study Guide website created during Prework for the bootcamp</p>
+                                    <a href="https://quantamjazz.github.io/quantamjazz-portfolio/" class="btn btn-primary">Check it out!</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Add more carousel items as needed -->
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
         </div>
-      </div>
     </section>
 
     <!-- Skills Section -->
@@ -96,5 +128,6 @@
         <!-- Add your footer info here -->
       </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

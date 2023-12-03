@@ -1,40 +1,37 @@
-/* Change the background color of the navbar */
-.navbar {
-  background-color: #5C2E7E!important;
-}
 
-/* Change the color of the brand and links */
-.navbar-brand,
-.nav-link {
+body {
+  font-family: "lato", sans-serif;
   color: white !important;
+  background-color: #5c2e7e !important;
 }
 
-/* Change the color of the dropdown items */
-.dropdown-item {
-  color: #333 !important;
+.navbar {
+  background-color: #5c2e7e !important;
 }
 
-/* Change the color of the brand, links, and dropdown items on hover */
 .navbar-brand:hover,
 .nav-link:hover,
 .dropdown-item:hover {
-  color: #624f82 !important;
+  color: #da0c81 !important;
 }
 
-/* Change the color of the active link */
 .nav-item.active .nav-link {
-  color: #ddd !important;
+  color: white !important;
   background-color: #9f73ab !important;
 }
 
-/* Style the hero section */
+.nav-link {
+  color: white !important;
+  margin-left: 10px;
+}
+
 .hero {
   background-color: #9f73ab;
   background-image: url(../images/Gradient\ Purple\ Dynamic\ BG.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-blend-mode:color-burn;
+  background-blend-mode: color-burn;
   color: white;
   padding: 100px 0;
   text-align: center;
@@ -55,16 +52,36 @@
 /* Style the hero subtitle */
 .hero p {
   font-size: 1.5em;
-}
-
-/* Style the call to action button */
-.hero .btn {
-  color: #3f3b6c;
-  background-color: white;
-  padding: 10px 20px;
-  text-decoration: none;
+  text-align: justify;
 }
 
 .heroImage {
   max-width: 20%;
+  padding: 30px;
+}
+
+#skills {
+  background-color: #5c2e7e;
+  text-align: center;
+  list-style: none;
+  margin: 50px 0;
+  padding: 20px 0;
+}
+
+#skills ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+}
+
+#work {
+margin: 50px 0;
+padding: 20px 0;
+}
+
+#projectCarousel {
+    width: 50%;
+    margin: auto;
 }
