@@ -41,33 +41,39 @@
               <a class="nav-link" href="#skills">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
+              <a class="nav-link" href="#contact">About Me/Contact</a>
             </li>
           </ul>
         </div>
-          <span class="navbar-text"> Front-End Developer </span>
+          <span class="navbar-text">Front-End Developer</span>
         </div>
       </div>
     </nav>
 
     <!-- Hero Section -->
-    <div class="jumbotron hero">
-      <h1 class="display-4">Eleanor Jenner | Front-End Devleoper</h1>
-      <img
-        src="assets/images/Me.jpeg"
-        alt="Eleanor Jenner"
-        class="img-fluid rounded-circle heroImage"
-      />
-      <p class="lead">Pole instructor by day, Dev by night.</p>
+    <div class="jumbotron hero text-center">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <h1 class="display-3">Eleanor Jenner | Front-End Developer</h1>
+                <img
+                    src="assets/images/Me.jpeg"
+                    alt="Eleanor Jenner"
+                    class="img-fluid rounded-circle heroImage"
+                />
+                <p class="lead text-center">Pole instructor by day, Dev by night.</p>
+            </div>
+        </div>
     </div>
 
     <!-- Work Section -->
     <section id="work">
         <div class="container">
-            <div class="row">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-8 col-sm-12">
                 <div id="projectCarousel" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <!---card1--->
+                        <h4 class="text-center">Work</h4>
                         <div class="carousel-item active">
                             <div class="card h-100 mx-auto" style="width: 100%; max-width:  12rem;">
                                 <img src="assets/images/Screenshot 2023-12-02 at 18.42.35.png" class="card-img-top" alt="Screenshot of Portfolio 1">
@@ -110,6 +116,7 @@
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
+                </div>
             </div>
         </div>
     </section>
@@ -118,7 +125,7 @@
     <section id="skills">
       <div class="container">
         <!-- List your skills here -->
-        <h2>Skills</h2>
+        <h4>Skills</h4>
         <ul class="skills-list">
           <li><i class="fab fa-html5"></i>HTML</li>
           <li><i class="fab fa-css3-alt"></i> CSS</li>
@@ -128,11 +135,19 @@
       </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact">
-        <div class="container d-flex justify-content-center">
-            <p><a href="tel:07345678910" class="text-decoration-none"><i class="fas fa-mobile"></i> 07345678910</a></p>
-            <p><a href="mailto:email@email.com" class="text-decoration-none"><i class="fas fa-envelope"></i> email@email.com</a></p>
+<!-- About/Contact Section -->
+<section id="about-contact">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 col-md-6 col-sm-12 text-center">
+                <h4>About Me</h4>
+                <p>Hi, I'm Ellie. I'm a certified Personal Trainer, Pole Fitness Instructor, Mother, Home-Educator, Dog Mum, Wife and aspiring Front-End Developer! I'm passionate about helping people to live a healthy and active lifestyle via educating them about nutrition and fitness, when I'm not training clients, homeschooling or poling you'll find me working on my dev skills!</p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 text-center">
+                <h4>Contact Me</h4>
+                <p><a href="tel:07345678910" class="text-decoration-none"><i class="fas fa-mobile"></i> 07345678910</a></p>
+                <p><a href="mailto:email@email.com" class="text-decoration-none"><i class="fas fa-envelope"></i> email@email.com</a></p>
+            </div>
         </div>
     </section>
 
