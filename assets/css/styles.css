@@ -96,3 +96,13 @@ body {
 .card-body {
     text-align: center;
 }
+
+.btn-social-icon {
+    color: #ffffff;
+    margin: 0 5px;
+}
+
+.btn-social-icon:hover {
+    color: #da0c81;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
