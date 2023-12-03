@@ -13,6 +13,10 @@ body {
     color: white !important;
 }
 
+.navbar-heading {
+    font-family: monospace, Arial, Helvetica, sans-serif !important;
+}
+
 .navbar-brand:hover,
 .nav-link:hover,
 .dropdown-item:hover {
