@@ -46,13 +46,11 @@ body {
   height: 100vh;
 }
 
-/* Style the hero title */
 .hero h1 {
   font-size: 2.5em;
   font-family: "lato", sans-serif;
 }
 
-/* Style the hero subtitle */
 .hero p {
   font-size: 1.5em;
   text-align: justify;
@@ -95,6 +93,15 @@ body {
 
 .card-body {
     text-align: center;
+}
+
+#contact p {
+  margin: 10px;
+  margin-bottom: 20px;
+}
+
+#contact a {
+  color: white;
 }
 
 .btn-social-icon {
