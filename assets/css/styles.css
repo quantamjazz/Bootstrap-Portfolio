@@ -4,6 +4,10 @@ body {
   background: linear-gradient(#940B92, #5c2e7e) !important;
 }
 
+body h4 {
+  font-weight: 700;
+}
+
 .navbar {
   background-color: #4D2DB7!important;
   font-size: 25px;
