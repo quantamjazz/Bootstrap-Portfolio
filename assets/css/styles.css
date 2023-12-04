@@ -96,8 +96,13 @@ section {
 }
 
 #projectCarousel {
-  width: 50%;
+  width: 80%;
   margin: auto;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  z-index: 2;
 }
 
 .card {
