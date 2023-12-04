@@ -43,7 +43,7 @@ body h4 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-blend-mode: color-burn;
+  background-blend-mode: color-burn;;
   color: white;
   padding: 100px 0;
   text-align: center;
@@ -54,6 +54,8 @@ body h4 {
   text-align: center;
   height: 100vh;
 }
+
+
 
 .hero h1 {
   font-size: 2.5em;
